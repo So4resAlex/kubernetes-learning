@@ -4,3 +4,5 @@ metadata:
   name: svc-pod-2
 spec:
   type: ClusterIP
+  selector:
+    app: segundo-pod
