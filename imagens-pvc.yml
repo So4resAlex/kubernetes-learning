@@ -1,0 +1,11 @@
+apiVersion: v1
+king: PersistentVolumeClaim
+metadata:
+  name: iamgens-pvc
+spec:
+  accessMode: 
+    - ReadWriteOnce
+  resources:
+    request: 
+      storage: 1G
+      
